@@ -19,9 +19,9 @@ function configure(api) {
     'templating',
     'less',
     'jquery',
-    'aldeed:autoform@5.3.0',
-    'edgee:slingshot@0.6.2',
-    "tap:i18n@1.5.1"
+    'aldeed:autoform',
+    'edgee:slingshot',
+    "tap:i18n"
   ], ['client', 'server']);
 
   api.imply([
